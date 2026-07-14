@@ -14,7 +14,6 @@ export const siteConfig = {
 export const navLinks = [
   { href: "#services", label: "サービス" },
   { href: "#solution", label: "選ばれる理由" },
-  { href: "#cases", label: "制作事例" },
   { href: "#pricing", label: "料金" },
   { href: "#flow", label: "制作の流れ" },
   { href: "#faq", label: "FAQ" },
