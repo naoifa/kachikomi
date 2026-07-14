@@ -8,7 +8,7 @@ const standards = [
   {
     icon: Gauge,
     title: "Lighthouse 90+",
-    body: "全案件で計測し、90点以上を出荷基準にしています。",
+    body: "すべての制作物で計測し、90点以上を出荷基準にします。",
   },
   {
     icon: Timer,
@@ -28,12 +28,11 @@ export function Evidence() {
       <SectionHeading
         eyebrow="Evidence"
         headingId="evidence-heading"
-        title="品質は、数字で語ります。"
-        lead="デザインの好みは分かれても、速度と成果の数字は嘘をつきません。このサイト自体が、私たちの品質基準で作られています。"
+        title="品質は、基準で語ります。"
+        lead="デザインの好みは分かれても、速度と設計の基準は誤魔化せません。このサイト自体が、私たちの品質基準で作られています。"
         inverted
       />
 
-      {/* ※数値はサンプル。ローンチ前に実測値へ差し替え（docs/05_delivery.md） */}
       <Reveal>
         <dl className="mx-auto mt-16 grid max-w-4xl grid-cols-2 gap-x-6 gap-y-12 text-center md:grid-cols-4">
           {stats.map((stat) => (

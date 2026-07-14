@@ -1,15 +1,15 @@
 /**
  * サイト全体のコピー・データを集約するファイル。
- * 実績数値・事例・お客様の声はローンチ前に必ず実データへ差し替えること
- * （docs/05_delivery.md の「要差し替え一覧」参照）。
+ * 実績が蓄積されたら、statsやcase studyを実データへ更新すること
+ * （docs/05_delivery.md 参照）。
  */
 
-// ※サンプル値。ローンチ前に実測値へ差し替え
+// 実績が伴わない数値の誇張を避け、事実として言える項目のみ掲載
 export const stats = [
-  { value: "120", suffix: "社+", label: "対応実績" },
-  { value: "2.4", suffix: "倍", label: "平均CVR改善" },
-  { value: "98", suffix: "", label: "Lighthouse平均スコア" },
+  { value: "0", suffix: "枚", label: "使用写真素材（自社実装）" },
   { value: "2", suffix: "週間", label: "最短納期" },
+  { value: "30", suffix: "分", label: "無料相談" },
+  { value: "30", suffix: "日", label: "公開後サポート" },
 ] as const;
 
 export const problems = [
@@ -101,40 +101,6 @@ export const afterItems = [
   "迷わせないCV動線で、問い合わせに直結",
   "1秒台の表示速度と快適なモバイル体験",
   "数値にもとづく改善が毎月まわり続ける",
-] as const;
-
-// ※事例はイメージです。ローンチ前に実案件へ差し替え
-export const caseStudies = [
-  {
-    tag: "製造業",
-    title: "「スマホで見づらい」10年前のサイトを全面刷新",
-    problem: "古いサイトで信頼を損ね、新規取引の入口がゼロに",
-    action: "強みの言語化＋事例中心の構成＋問い合わせ動線を再設計",
-    result: "問い合わせ",
-    before: "月1件",
-    after: "月14件",
-    bars: [12, 20, 34, 52, 78, 100],
-  },
-  {
-    tag: "D2C・EC",
-    title: "広告費が溶けるLPを、CVRから逆算して作り直し",
-    problem: "広告CTRは良いのにLPで離脱、CPAが高騰",
-    action: "ファーストビュー刷新＋離脱ポイント解消＋表示速度を1.2秒に",
-    result: "LP経由CVR",
-    before: "0.8%",
-    after: "2.6%",
-    bars: [30, 26, 44, 58, 72, 100],
-  },
-  {
-    tag: "SaaS",
-    title: "シリーズA直後、採用が加速するコーポレートへ",
-    problem: "プロダクトは強いのに、会社の顔が伴っていない",
-    action: "ブランド再定義＋技術ブログ基盤＋採用導線の設計",
-    result: "採用応募数",
-    before: "基準",
-    after: "3.2倍",
-    bars: [24, 30, 42, 60, 80, 100],
-  },
 ] as const;
 
 export const flowSteps = [

@@ -60,7 +60,6 @@ export function Hero() {
           </p>
         </Reveal>
 
-        {/* ※数値はサンプル。ローンチ前に実測値へ差し替え（docs/05_delivery.md） */}
         <Reveal mode="mount" delay={0.34}>
           <dl className="mx-auto mt-20 grid max-w-4xl grid-cols-2 gap-x-6 gap-y-10 md:grid-cols-4">
             {stats.map((stat) => (
