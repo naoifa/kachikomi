@@ -8,6 +8,7 @@ import { Solution } from "@/components/sections/solution";
 import { Features } from "@/components/sections/features";
 import { Benefits } from "@/components/sections/benefits";
 import { Evidence } from "@/components/sections/evidence";
+import { DesignExamples } from "@/components/sections/design-examples";
 import { Flow } from "@/components/sections/flow";
 import { Pricing } from "@/components/sections/pricing";
 import { Faq } from "@/components/sections/faq";
@@ -82,6 +83,7 @@ export default function HomePage() {
       <Features />
       <Benefits />
       <Evidence />
+      <DesignExamples />
       <Flow />
       <Pricing />
       <Faq />
