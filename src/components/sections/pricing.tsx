@@ -82,7 +82,7 @@ export function Pricing() {
             <h3 className="text-sm font-bold">
               保守運用プラン
               <span className="ml-3 text-xl font-bold tabular-nums">
-                月額 ¥26,800
+                月額 ¥19,800
               </span>
               <span className="text-sm font-medium text-muted-foreground">
                 〜（税別）
